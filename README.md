@@ -6,12 +6,8 @@ To run the script, at least following required packages should be satisfied:
 - Tensorflow 1.6.0
 - NumPy 1.14.1
 
-You can use Anaconda to install these required packages. For tensorflow, use the following command to make a quick installation under windows:
-```
-pip install tensorflow
-```
 ## 1. Content
-In this project, there are implementations for various kinds of autoencoders. The base python class is library/Autoencoder.py, you can set the value of "ae_para" in the construction function of Autoencoder to appoint corresponding autoencoder.
+In this project, there are implementations for various kinds of autoencoders with reformer and are atacked with C&W attack. The base python class is library/Autoencoder.py, you can set the value of "ae_para" in the construction function of Autoencoder to appoint corresponding autoencoder.
 
 - ae_para[0]: The corruption level for the input of autoencoder. If ae_para[0]>0, it's a denoising autoencoder;
 - aw_para[1]: The coeff for sparse regularization. If ae_para[1]>0, it's a sparse autoencoder.
