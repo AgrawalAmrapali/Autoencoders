@@ -1,4 +1,4 @@
-# tensorflow_stacked_denoising_autoencoder
+# Autoencoders
 
 ## 0. Setup Environment
 To run the script, at least following required packages should be satisfied:
