@@ -113,14 +113,5 @@ For the training of SAE on the task of MNIST classification, there are four sequ
 3. Training on the output layer, normally softmax layer, based on the sequential output of first and second ae;
 4. Fine-tune on the whole network.
 
-Detailed code can be found in the script "SAE_Softmax_MNIST.py"
-## 2. Reference
 
-Class "autoencoder" are based on the tensorflow official models:
-https://github.com/tensorflow/models/tree/master/research/autoencoder/autoencoder_models
 
-For the theory on autoencoder, sparse autoencoder, please refer to:
-http://ufldl.stanford.edu/tutorial/unsupervised/Autoencoders/
-
-## 3. My blog for this project
-[漫谈autoencoder：降噪自编码器/稀疏自编码器/栈式自编码器（含tensorflow实现）](https://blog.csdn.net/wblgers1234/article/details/81545079)
